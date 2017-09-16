@@ -14,8 +14,17 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aleksandr-loshkarev/noski/issues"
-  },
-  "homepage": "https://github.com/aleksandr-loshkarev/noski#readme"
-}
+  "devDependencies": {  
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-scss": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-useref": "^3.1.2",
+    "gulp-watch": "^4.3.11",
+    "run-sequence": "^2.1.0"
+  }
