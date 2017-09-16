@@ -1,20 +1,14 @@
 {
-  "name": "noski",
+  "name": "template-gulp-scss",
   "version": "1.0.0",
   "description": "",
-  "main": "gulpfile.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aleksandr-loshkarev/noski.git"
-  },
-  "author": "",
+  "author": "Aleksandr Loshkarev",
   "license": "ISC",
-  "devDependencies": {  
+  "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
@@ -28,3 +22,4 @@
     "gulp-watch": "^4.3.11",
     "run-sequence": "^2.1.0"
   }
+}
