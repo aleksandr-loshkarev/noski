@@ -1,0 +1,21 @@
+.section{
+	padding:60px 0;
+	&-heading{
+		span{
+			padding-right:35px;
+			font-size:22px;
+		}
+	}
+}
+@media  (max-width: 960px){
+	.section{
+		padding:0;
+		&-heading{
+			background:#ebebeb;
+			padding:15px 0;
+			h3{
+			margin: 0;
+			}
+		}
+	}
+}
