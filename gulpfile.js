@@ -21,6 +21,10 @@ gulp.task('scss', function () {
         cascade: false
     }))
     .pipe(sourcemaps.write())
+    .pipe(autoprefixer({
+        browsers: ['last 2 versions'],
+        cascade: false
+    }))
     .pipe(gulp.dest('dist/css'))
     .pipe(browserSync.stream());
 });

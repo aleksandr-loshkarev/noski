@@ -32,3 +32,11 @@ $(document).ready(function () {
         $(".user-place_form").slideToggle();
     })
 });
+
+// slick slider
+$(document).ready(function(){
+  $('.js-single-item').slick({
+      arrows: false,
+      autoplay: true
+  });
+});
