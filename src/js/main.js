@@ -15,3 +15,20 @@ $(document).ready(function() {
         return false;
     });
 });
+
+$(document).ready(function () {
+    $(".navbar-toggler").click(function () {
+        $(".navbar-list").slideToggle();
+    })
+});
+$(function(){
+    $('.navbar-toggler').click(function(){
+        $('.navbar-toggler').toggleClass('navbar-toggler-active');
+    });
+});
+
+$(document).ready(function () {
+    $(".icon-search").click(function () {
+        $(".user-place_form").slideToggle();
+    })
+});
