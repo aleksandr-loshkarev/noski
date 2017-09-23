@@ -71,8 +71,45 @@
 
 		<!-- Start main-page -->
 		<main class="main-page">
-
+		    <div class="sidebar-holder">
+		        <div class="sidebar">
+		        	<div class="sidebar-category-box">
+                       <div class="caption-sidebar caption-men">Men</div>
+       	                  <ul class="men-list  sidebar-list">
+       		                 <li><a href="#">ankle</a></li>
+       		                 <li><a href="#">crew</a></li>
+       		                 <li><a href="#">knee</a></li>
+       		                 <li><a href="#">over the knee</a></li>
+       	                  </ul>
+                    </div><!--close category-->
+                   <div class="sidebar-category-box">
+                      <div class="caption-sidebar caption-women">Women</div>
+       	                  <ul class="women-list sidebar-list">
+       		                 <li><a href="#">ankle</a></li>
+       		                 <li><a href="#">crew</a></li>
+       		                 <li><a href="#">knee</a></li>
+       		                 <li><a href="#">over the knee</a></li>
+       	                  </ul>
+                      </div><!--close category-->
+                   <div class="sidebar-category-box">
+                      <div class="caption-sidebar caption-kids">Kids</div>
+       	                  <ul class="kids-list sidebar-list">
+       		                 <li><a href="#">ankle</a></li>
+       		                 <li><a href="#">crew</a></li>
+       		                 <li><a href="#">knee</a></li>
+       		                 <li><a href="#">over the knee</a></li>
+       	                   </ul>
+                   </div><!--close category-->
+               </div><!--close sidebar-->
+		    </div><!--close sidebar-holder-->
 		</main>
+
+		 <div class="button">
+                <a href="#">add product</a>
+            </div>
+            <div class="button button-small">
+                <a href="#">&#10084;</a>
+            </div>
 		<!-- End main-page -->
 
 		<!-- Start footer-page -->
@@ -153,6 +190,18 @@
 	<!-- Connecting to JavaScript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="/js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script>
+    $('.caption-men').click(function(){
+       $('.men-list').slideToggle("active");
+       });
+       $('.caption-women').click(function(){
+       $('.women-list').slideToggle("active");
+       });
+       $('.caption-kids').click(function(){
+       $('.kids-list').slideToggle("active");
+    });
+  </script>
 </body>
 
 </html>
