@@ -1,0 +1,19 @@
+.button {
+  background: $brand-color; 
+  padding: 25px;
+  max-width: 252px;
+  margin: 0 auto 5px;
+    a {
+      display: block;
+      color: $body-bg;
+      text-transform: uppercase;
+      font-weight: bold;
+      text-align: center;
+      font-size: $font-size-h3;
+      text-decoration: none;
+     }
+}
+
+.button-small {
+  max-width: 40px;
+}

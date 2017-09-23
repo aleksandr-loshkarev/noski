@@ -42,6 +42,9 @@ a{
     color: lighten($link-color,40%);
   }
 }
+.active{
+  color: lighten($link-color,40%);
+}
 .wrapper {
   overflow: hidden;
   position: relative;
