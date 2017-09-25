@@ -1,4 +1,7 @@
 .card{
+  .hidden{
+    visibility:hidden;
+  }
   &-list{
     margin:0 60px;
     border-bottom:1px solid #000;
@@ -9,7 +12,12 @@
       margin-bottom:100px;
     }
   }
-
+  &-total{
+    img{
+      width: 161px;
+      height: 115px;
+    }
+  }
   &-header{
     margin:0 8px;
     max-width: 161px;
@@ -61,12 +69,8 @@
       font-size:$size-l;
       font-weight: 700;
     }
-    &-total{
-      padding:40px 20px;
-      margin: 0;
-    }
-    &-summa{
-      padding:40px 60px;
+    &-total-title{
+      margin: 0 30px;
     }
   }
   &-footer{
@@ -79,6 +83,11 @@
     }
   }
 
+
+  .btn-card{
+    text-transform:capitalize;
+    font-weight:400px;
+  }
   @media  (max-width: 1240px){
     &-footer{
       .btn{
@@ -91,6 +100,9 @@
   }
 
    @media  (max-width: 960px){
+    .total-none{
+      display:none;
+    }
     .padding-default{
       padding: 0;
     }
@@ -103,6 +115,19 @@
       }
       &:last-child{
         margin-bottom:0;
+      }
+    }
+    &-total{
+      padding:0;
+      .card-body{
+        flex-direction:row;
+        justify-content:center !important;
+        flex-grow:1 !important;
+        &-price{
+          display:flex;
+          align-items: center;
+          margin-bottom:0;
+        }
       }
     }
     &-header{
@@ -163,6 +188,11 @@
     }  
   }
   @media  (max-width: 460px){
+    &-total{
+      .card-body{
+        justify-content:space-around !important;
+    }
+    }
     &-body{
         .text{
           font-size:$size-xxs;

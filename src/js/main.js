@@ -16,6 +16,42 @@ $(document).ready(function() {
     });
 });
 
+//forms accordion
+$(function(){
+    $(".accordion").on('click', function(){
+        var $this = $(this).parents(".form-groups");
+
+        if($this.hasClass("open-accordion")){
+            $this.removeClass("open-accordion");
+        } else {
+            $this.addClass('open-accordion');
+        }
+    });
+
+    $(".accordion2").on('click', function(){
+        var $this = $(this).parents(".form-groups");
+
+        if($this.hasClass("open-accordion2")){
+            $this.removeClass("open-accordion2");
+        } else {
+            $this.addClass('open-accordion2');
+        }
+    });
+    
+    $(".accordion3").on('click', function(){
+        var $this = $(this).parents(".form-groups");
+
+        if($this.hasClass("open-accordion3")){
+            $this.removeClass("open-accordion3");
+        } else {
+            $this.addClass('open-accordion3');
+        }
+    });
+});
+
+
+//navbar
+
 $(document).ready(function () {
     $(".navbar-toggler").click(function () {
         $(".navbar-list").slideToggle();
@@ -40,3 +76,4 @@ $(document).ready(function(){
       autoplay: true
   });
 });
+

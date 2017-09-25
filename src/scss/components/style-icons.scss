@@ -1,34 +1,35 @@
 $icomoon-font-path: "../fonts";
 
-$icon-cart: "\e901";
-$icon-heart: "\e902";
-$icon-logo: "\e904";
-$icon-search: "\e905";
-$icon-plus: "\e900";
+$icon-keyboard_arrow_down: "\e900";
+$icon-cart: "\e902";
+$icon-heart: "\e903";
+$icon-logo: "\e905";
+$icon-search: "\e906";
+$icon-plus: "\e901";
 $icon-add: "\e900";
 $icon-facebook: "\ea90";
 $icon-minus: "\ea0b";
 $icon-arrow-right2: "\ea3c";
 $icon-x: "\2613";
-$icon-pinterest-p: "\e906";
+$icon-pinterest-p: "\e907";
 $icon-twitter: "\e90c";
-$icon-instagram2: "\e903";
+$icon-instagram2: "\e904";
 $icon-google: "\e910";
 
 @font-face {
-  font-family: 'icomoon';
-  src:  url('#{$icomoon-font-path}/icomoon.eot?6qk6mu');
-  src:  url('#{$icomoon-font-path}/icomoon.eot?6qk6mu#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/icomoon.ttf?6qk6mu') format('truetype'),
-    url('#{$icomoon-font-path}/icomoon.woff?6qk6mu') format('woff'),
-    url('#{$icomoon-font-path}/icomoon.svg?6qk6mu#icomoon') format('svg');
+  font-family: 'noski';
+  src:  url('#{$icomoon-font-path}/noski.eot?6qk6mu');
+  src:  url('#{$icomoon-font-path}/noski.eot?6qk6mu#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/noski.ttf?6qk6mu') format('truetype'),
+    url('#{$icomoon-font-path}/noski.woff?6qk6mu') format('woff'),
+    url('#{$icomoon-font-path}/noski.svg?6qk6mu#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: 'noski' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -40,75 +41,45 @@ $icon-google: "\e910";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.icon-cart {
-  &:before {
-    content: $icon-cart;
-  }
+.icon-keyboard_arrow_down:before {
+  content: $icon-keyboard_arrow_down;
 }
-.icon-heart {
-  &:before {
-    content: $icon-heart;
-  }
+.icon-x:before {
+  content: $icon-x;
 }
-.icon-logo {
-  &:before {
-    content: $icon-logo;
-  }
+.icon-plus:before {
+  content: $icon-plus;
 }
-.icon-search {
-  &:before {
-    content: $icon-search;
-  }
+.icon-cart:before {
+  content: $icon-cart;
 }
-.icon-plus {
-  &:before {
-    content: $icon-plus;
-  }
+.icon-heart:before {
+  content: $icon-heart;
 }
-.icon-add {
-  &:before {
-    content: $icon-add;
-  }
+.icon-instagram2:before {
+  content: $icon-instagram2;
 }
-.icon-facebook {
-  &:before {
-    content: $icon-facebook;
-  }
+.icon-logo:before {
+  content: $icon-logo;
 }
-.icon-minus {
-  &:before {
-    content: $icon-minus;
-  }
+.icon-search:before {
+  content: $icon-search;
 }
-.icon-arrow-right2 {
-  &:before {
-    content: $icon-arrow-right2;
-  }
+.icon-pinterest-p:before {
+  content: $icon-pinterest-p;
 }
-.icon-x {
-  &:before {
-    content: $icon-x;
-  }
+.icon-twitter:before {
+  content: $icon-twitter;
 }
-.icon-pinterest-p {
-  &:before {
-    content: $icon-pinterest-p;
-  }
+.icon-google:before {
+  content: $icon-google;
 }
-.icon-twitter {
-  &:before {
-    content: $icon-twitter;
-  }
+.icon-minus:before {
+  content: $icon-minus;
 }
-.icon-instagram2 {
-  &:before {
-    content: $icon-instagram2;
-  }
+.icon-arrow-right2:before {
+  content: $icon-arrow-right2;
 }
-.icon-google {
-  &:before {
-    content: $icon-google;
-  }
+.icon-facebook:before {
+  content: $icon-facebook;
 }
-
