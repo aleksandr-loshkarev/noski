@@ -20,7 +20,7 @@ body{
 }
 body, h1, h2, h3, h4, h5, img, ul, ol, li, a, p {
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
 *,
 *:after,
@@ -62,6 +62,13 @@ h1, .h1 { font-size: $font-size-h1; margin: $margin-h1; }
 h2, .h2 { font-size: $font-size-h2; margin: $margin-h2; }
 h3, .h3 { font-size: $font-size-h3; margin: $margin-h3; }
 h4, .h4 { font-size: $font-size-h4; margin: $margin-h4; }
+
+h1 {
+    margin: 0 0 45px;
+    line-height: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
 
 .text-left           { text-align: left; }
 .text-right          { text-align: right; }

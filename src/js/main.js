@@ -70,10 +70,10 @@ $(document).ready(function () {
 });
 
 // slick slider
-
 $(document).ready(function(){
   $('.js-single-item').slick({
       arrows: false,
       autoplay: true
   });
 });
+
