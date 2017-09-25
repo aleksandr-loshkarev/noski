@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Forms</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta content="telephone=no" name="format-detection">
+	<link rel="stylesheet" href="css/main.css" media="all">
+</head>
+<body>
+	<div class="wrapper">
+		<header></header>
+		<main>
+			<div class="container">
+				<div class="form-groups">
+					<form action="#">
+						<div class="form-col">
+							<h4 class="accordion icon-keyboard_arrow_down" id="acd1">Personal Detail</h4>
+							<div class="row first">
+								<input type="text" placeholder="name">
+							</div>
+							<div class="row first">
+								<input type="email" placeholder="e-mail">
+							</div>
+							<div class="row first">
+								<input type="tel" placeholder="phone number">
+							</div>
+						</div>
+						<div class="form-col">
+							<h4 class="accordion2 icon-keyboard_arrow_down" id="acd2">Billing Address</h4>
+							<div class="row second">
+								<input type="text" placeholder="line">
+							</div>
+							<div class="row second">
+								<input type="text" placeholder="town">
+							</div>
+							<div class="row second">
+								<input type="text" placeholder="country">
+							</div>
+							<div class="row second">
+								<input type="number" placeholder="code" min="0">
+							</div>
+						</div>
+						<div class="form-col">
+							<h4 class="accordion3 icon-keyboard_arrow_down" id="acd3">Payment Details</h4>
+							<div class="row third">
+								<input type="text" placeholder="name">
+							</div>
+							<div class="row third">
+								<input type="number" min="0" placeholder="card №">
+							</div>
+							<div class="row xs-input third">
+								<label for="code">code</label>
+								<input type="number" min="0" id="code">
+							</div>
+							<div class="row xs-input third">
+								<label for="date">exp data</label>
+								<input type="date" id="date">
+								<span class="decor"></span>
+								<input type="date">
+							</div>
+							<button type="submit" class="btn">Order review</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<footer></footer>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

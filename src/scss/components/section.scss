@@ -6,13 +6,6 @@
 			font-size:22px;
 		}
 	}
-	&-header{
-		position: relative;
-	}
-	&-footer{
-		background: black;
-		padding:80px 0 0 0;
-	}
 }
 @media  (max-width: 960px){
 	.section{
@@ -22,18 +15,7 @@
 			padding:15px 0;
 			h3{
 			margin: 0;
-
 			}
-		}
-		&-header {
-			padding: 20px 0;
-		}
-		&-footer{
-			padding: 40px 0 0 0;
 		}
 	}
 }
-
-
-
-
