@@ -11,7 +11,7 @@
 <body>
 	<!-- Start page wrapper -->
 	<div class="wrapper">
-
+		
 		<!-- Start header-page -->
 		<header class="header-page">
 			<div class="section section-header">
@@ -28,9 +28,6 @@
 							<span></span>
 						</button>
 						<ul class="navbar-list flex">
-							<li>
-								<a href="index.html">New</a>
-							</li>
 							<li>
 								<a href="#">About</a>
 							</li>
@@ -71,37 +68,90 @@
 
 		<!-- Start main-page -->
 		<main class="main-page">
-		    <div class="sidebar-holder">
-		        <div class="sidebar">
-		        	<div class="sidebar-category-box">
-                       <div class="caption-sidebar caption-men">Men</div>
-       	                  <ul class="men-list  sidebar-list">
-       		                 <li><a href="#">ankle</a></li>
-       		                 <li><a href="#">crew</a></li>
-       		                 <li><a href="#">knee</a></li>
-       		                 <li><a href="#">over the knee</a></li>
-       	                  </ul>
-                    </div><!--close category-->
-                   <div class="sidebar-category-box">
-                      <div class="caption-sidebar caption-women">Women</div>
-       	                  <ul class="women-list sidebar-list">
-       		                 <li><a href="#">ankle</a></li>
-       		                 <li><a href="#">crew</a></li>
-       		                 <li><a href="#">knee</a></li>
-       		                 <li><a href="#">over the knee</a></li>
-       	                  </ul>
-                      </div><!--close category-->
-                   <div class="sidebar-category-box">
-                      <div class="caption-sidebar caption-kids">Kids</div>
-       	                  <ul class="kids-list sidebar-list">
-       		                 <li><a href="#">ankle</a></li>
-       		                 <li><a href="#">crew</a></li>
-       		                 <li><a href="#">knee</a></li>
-       		                 <li><a href="#">over the knee</a></li>
-       	                   </ul>
-                   </div><!--close category-->
-               </div><!--close sidebar-->
-		    </div><!--close sidebar-holder-->
+			<div class="container">
+				<section class="section section-product flex">
+				    <div class="sidebar-holder">
+				        <div class="sidebar">
+				        	<div class="sidebar-category-box">
+		                       <div class="caption-sidebar caption-men">Men</div>
+		       	                  <ul class="men-list  sidebar-list">
+		       		                 <li><a href="#">ankle</a></li>
+		       		                 <li><a href="#">crew</a></li>
+		       		                 <li><a href="#">knee</a></li>
+		       		                 <li><a href="#">over the knee</a></li>
+		       	                  </ul>
+		                    </div><!--close category-->
+		                   <div class="sidebar-category-box">
+		                      <div class="caption-sidebar caption-women">Women</div>
+		       	                  <ul class="women-list sidebar-list">
+		       		                 <li><a href="#">ankle</a></li>
+		       		                 <li><a href="#">crew</a></li>
+		       		                 <li><a href="#">knee</a></li>
+		       		                 <li><a href="#">over the knee</a></li>
+		       	                  </ul>
+		                      </div><!--close category-->
+		                   <div class="sidebar-category-box">
+		                      <div class="caption-sidebar caption-kids">Kids</div>
+		       	                  <ul class="kids-list sidebar-list">
+		       		                 <li><a href="#">ankle</a></li>
+		       		                 <li><a href="#">crew</a></li>
+		       		                 <li><a href="#">knee</a></li>
+		       		                 <li><a href="#">over the knee</a></li>
+		       	                   </ul>
+		                   </div><!--close category-->
+		               </div><!--close sidebar-->
+				    </div><!--close sidebar-holder-->
+			
+			<!--start section-prod-->
+				<div class="card-product">
+					<div class="card-product-heading">
+						<ul class="breadcrumps flex">
+							<li class="slash"><a href="#">Store</a></li>
+							<li class="slash"><a href="#">Women</a></li>
+							<li class="slash"><a href="#">Ankle</a></li>
+							<li><a href="#">Crab Pattern Ankle Socks</a></li>
+						</ul>
+					</div>
+					<div class="card-product-wrapper flex flex-space-between">
+						<header class="card-product-header">
+							<div class="card-product-slider">
+								<div><img src="img/1.jpg" alt=""></div>
+								<div><img src="img/2.jpg" alt=""></div>
+								<div><img src="img/3.jpg" alt=""></div>
+							</div>
+						</header>
+						<div class="card-product-body">
+							<h3 class="card-product-title card-padding-bot">
+								Crab Pattern Ankle Socks
+							</h3>
+							<p class="card-body-price card-padding-bot">$1,50</p>
+							<p class="card-product-desc card-padding-bot">Patterned with a burst of cascading stars and bright crabs, this pair of ankle socks is a perfect antidote to the winter blues (or a great way to give yourself a boost if you're feeling, you know… crabby).</p>
+							<div class="card-product-color flex flex-middle card-padding-bot">
+								<h3 class="title">Colour</h3>
+								<ul class="list-colour">
+									<li class="warning"><a href="#"></a></li>
+									<li class="danger"><a href="#"></a></li>
+									<li class="info"><a href="#"></a></li>
+								</ul>
+							</div>
+							<div class="card-product-counter flex flex-middle card-padding-bot">
+								<h3 class="title">Quantity</h3>
+								<div class="counter flex">
+								    <span class="minus flex flex-center flex-middle"></span>
+								    <input class="text flex flex-center flex-middle" type="number" value="1">
+								    <span class="plus flex flex-center flex-middle"></span>
+								</div>
+							</div>
+							<div class="card-product-buttons flex flex-space-between card-padding-bot">
+								<a href="card-cart.html" class="btn">Add to Cart</a>
+								<a href="card-like.html" class="icon-heart btn"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
+			<!--close section-prod-->
 		</main>
 		<!-- End main-page -->
 
@@ -182,18 +232,8 @@
 
 	<!-- Connecting to JavaScript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/jquery-3.2.1.js"></script>
 	<script src="js/main.js"></script>
-	<script>
-    $('.caption-men').click(function(){
-       $('.men-list').slideToggle("active");
-       });
-       $('.caption-women').click(function(){
-       $('.women-list').slideToggle("active");
-       });
-       $('.caption-kids').click(function(){
-       $('.kids-list').slideToggle("active");
-    });
-  </script>
 </body>
 
 </html>

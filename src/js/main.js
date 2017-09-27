@@ -76,4 +76,20 @@ $(document).ready(function(){
       autoplay: true
   });
 });
+$(document).ready(function(){
+  $('.card-product-slider').slick({
+      arrows: true
+  });
+});
+
+// sidebar section-product
+$('.caption-men').click(function(){
+       $('.men-list').slideToggle("active");
+       });
+       $('.caption-women').click(function(){
+       $('.women-list').slideToggle("active");
+       });
+       $('.caption-kids').click(function(){
+       $('.kids-list').slideToggle("active");
+    });
 
