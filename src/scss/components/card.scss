@@ -31,40 +31,6 @@
       font-size:$size-l;
       font-weight:400;
     }
-    &-counter{
-      input, .plus, .minus{
-        width: 40px;
-        min-height: 39px;
-        padding: 0;
-        border: 1px solid #a0a0a0;
-        outline:none;
-        text-align:center;
-        font-weight: 700;
-      }
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-      }
-      .plus{
-        border-left:none;
-        &:before{
-          content:'+';
-        }
-      }
-      .minus{
-        border-right:none;
-         &:before{
-          content:'-';
-        }
-      }
-      .plus, .minus{
-        cursor:pointer;
-      }
-      .plus:hover, .minus:hover{
-        background: #000;
-        color:#fff;
-      }
-    }
     &-price, &-summa{
       font-size:$size-l;
       font-weight: 700;
@@ -207,4 +173,37 @@
 }
 
 
-
+.counter{
+  input, .plus, .minus{
+    width: 40px;
+    min-height: 39px;
+    padding: 0;
+    border: 1px solid #a0a0a0;
+    outline:none;
+    text-align:center;
+    font-weight: 700;
+  }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+  }
+  .plus{
+    border-left:none;
+    &:before{
+      content:'+';
+    }
+  }
+  .minus{
+    border-right:none;
+     &:before{
+      content:'-';
+    }
+  }
+  .plus, .minus{
+    cursor:pointer;
+  }
+  .plus:hover, .minus:hover{
+    background: #000;
+    color:#fff;
+  }
+}

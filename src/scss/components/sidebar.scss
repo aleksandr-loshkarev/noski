@@ -1,23 +1,33 @@
+.sidebar-holder{
+  width: 25%
+}
 .sidebar-category-box {
    margin-bottom: 50px;
-   .sidebar {
-	color: $text-color;
-	font-size: $font-size-h4;
-	line-height: $font-size-h4 + 4px;
-	  .caption-sidebar {
-         font-weight: bold;
-         cursor: pointer;
-       }
-    }
+  
+}
+.sidebar {
+  color: $text-color;
+  font-size: $font-size-h4;
+  line-height: $font-size-h4 + 4px;
+  .caption-sidebar {
+       font-weight: bold;
+       cursor: pointer;
+       color:#000;
+     }
 }
 
 .sidebar-list {
 	display: none;
-       li {
-   list-style: none;
-        a {
-	color: $text-color;
-	text-decoration: none;
-       }
+  li {
+      list-style: none;
+    a {
+      font-size:$size-md;
+    	color: $text-color;
+    	text-decoration: none;
+      cursor:pointer;
+      &:hover{
+        text-decoration: underline;
+      }    
     }
+  }
 }  
