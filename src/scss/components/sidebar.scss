@@ -6,13 +6,17 @@
   
 }
 .sidebar {
+  margin-top: 80px;
   color: $text-color;
   font-size: $font-size-h4;
   line-height: $font-size-h4 + 4px;
   .caption-sidebar {
        font-weight: bold;
        cursor: pointer;
-       color:#000;
+       color:rgba(000,000,000, 0.6);
+       &:hover{
+        color:#000;
+       }
      }
 }
 
@@ -31,3 +35,20 @@
     }
   }
 }  
+@media (max-width:960px){
+    .sidebar-holder{
+      width: 100%;
+      background:#ebebeb;
+    }
+    .sidebar-category-box {
+      margin-bottom:0;
+    }
+    .sidebar {
+      margin: 15px;
+      display:flex;
+      justify-content:center;
+      .sidebar-category-box{
+        padding:0 20px;
+      }
+    }
+}
