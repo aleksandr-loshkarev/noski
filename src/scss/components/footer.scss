@@ -49,6 +49,7 @@
 }
 .form-email{
   border-bottom: solid 1px #c7c7c7;
+  display: flex;
 }
 .email{
   padding: 10px;
@@ -75,6 +76,7 @@
     color: inherit;
     border: none;
     cursor: pointer;
+    width: 20%;
   }
 }
 @media  (max-width: 960px){
