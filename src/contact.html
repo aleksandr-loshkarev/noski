@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>Forms</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta content="telephone=no" name="format-detection">
+	<link rel="stylesheet" href="css/main.css" media="all">
+</head>
+<body>
+	<div class="wrapper">
+		<!-- Start header-page -->
+		<header class="header-page">
+			<div class="section section-header">
+				<div class="container container-header flex">
+					<div class="logo">
+						<a href="index.html">
+							<span class="icon-logo"></span>
+						</a>
+					</div>
+					<div class="navbar">
+						<button class="navbar-toggler">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+						<ul class="navbar-list flex">
+							<li>
+								<a href="#">About</a>
+							</li>
+							<li>
+								<a href="product-page.html">Store</a>
+							</li>
+							<li>
+								<a href="#">Lookbook</a>
+							</li>
+							<li>
+								<a href="#">Contact</a>
+							</li>
+							<li>
+								<a href="#">Login</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="icon-link flex">
+						<li class="user-place_form">
+							<form>
+								<input type="search" class="user-place" name="search">
+							</form>
+						</li>
+						<li>
+							<a href="#"><span class="icon-search"></span></a>
+						</li>
+						<li>
+							<a href="card-like.html"><span class="icon-heart"></span></a>
+						</li>
+						<li>
+							<a href="card-cart.html"><span class="icon-cart"></span></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<!-- End header-page -->
+		<main>
+			<div class="container">
+				<div class="form-groups">
+					<form action="#">
+						<div class="form-col">
+							<h4 class="accordion icon-keyboard_arrow_down" id="acd1">Personal Detail</h4>
+							<div class="row first">
+								<input type="text" placeholder="name">
+							</div>
+							<div class="row first">
+								<input type="email" placeholder="e-mail">
+							</div>
+							<div class="row first">
+								<input type="tel" placeholder="phone number">
+							</div>
+						</div>
+						<div class="form-col">
+							<h4 class="accordion2 icon-keyboard_arrow_down" id="acd2">Billing Address</h4>
+							<div class="row second">
+								<input type="text" placeholder="line">
+							</div>
+							<div class="row second">
+								<input type="text" placeholder="town">
+							</div>
+							<div class="row second">
+								<input type="text" placeholder="country">
+							</div>
+							<div class="row second">
+								<input type="number" placeholder="code" min="0">
+							</div>
+						</div>
+						<div class="form-col">
+							<h4 class="accordion3 icon-keyboard_arrow_down" id="acd3">Payment Details</h4>
+							<div class="row third">
+								<input type="text" placeholder="name">
+							</div>
+							<div class="row third">
+								<input type="number" min="0" placeholder="card №">
+							</div>
+							<div class="row xs-input third">
+								<label for="code">code</label>
+								<input type="number" min="0" id="code">
+							</div>
+							<div class="row xs-input third">
+								<label for="date">exp data</label>
+								<input type="date" id="date">
+								<span class="decor"></span>
+								<input type="date">
+							</div>
+							<button type="submit" class="btn">Order review</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<!-- Start footer-page -->
+		<footer class="footer-page">
+			<div class="section section-footer">
+				<div class="container container-footer">
+					<div class="footer-body">
+						<div class="footer-item item-inform">
+							<ul>
+								<li>About</li>
+								<li>Store</li>
+							</ul>
+							<ul>
+								<li>Contact</li>
+								<li>FAQ's</li>
+							</ul>
+							<ul>
+								<li>Shipping info</li>
+								<li>Privacy & Policy</li>
+							</ul>
+
+						</div>
+						<div class="footer-item item-email">
+							<ul>
+								<li>
+									<p>Newsletters</p>
+								</li>
+								<li>
+									<form name="email" class="form-email">
+										<input type="email" class="email" placeholder="E-mail">
+										<input type="button" class="email-button" value=&#8594;>
+									</form>
+								</li>
+							</ul>
+						</div>
+						<div class="footer-item item-social">
+							<ul class="social-list">
+								<li class="social-link">
+									<a href="#">
+										<span class="icon-facebook"></span>
+									</a>
+								</li>
+								<li class="social-link">
+									<a href="#">
+										<span class="icon-google"></span>
+									</a>
+								</li>
+								<li class="social-link">
+									<a href="#">
+										<span class="icon-twitter"></span>
+									</a>
+								</li>
+								<li class="social-link">
+									<a href="#">
+										<span class="icon-instagram2"></span>
+									</a>
+								</li>
+								<li class="social-link">
+									<a href="#">
+										<span class="icon-pinterest-p"></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer-bottom text-center">
+						<p>Copyright © 2015 Nosockstore All Rights Reserved </p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End footer-page -->
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
