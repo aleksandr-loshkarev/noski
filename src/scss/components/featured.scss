@@ -31,8 +31,8 @@
 
         &-circle {
             position: absolute;
-            top: 0;
-            right: 0;
+            top: 350px;
+            left: 300px;
             background-color: $brand-color;
             width: 100px;
             height: 100px;
@@ -59,9 +59,101 @@
         font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 1.8px;
+
+        &-fall {
+            position: absolute;
+            top: 50%;
+            right: 27%;
+        }
+
+        &-summer {
+            position: absolute;
+            top: 40%;
+            left: 40%;
+        }
+
+        &-winter {
+            position: absolute;
+            top: 85%;
+            right: 40%;
+        }
     }
 
     &-image {
 
+        &-top {
+            margin: -40% 0 0 70%;
+            width: 100%;
+        }
+
+        &-bottom {
+            margin: -85% 0 0 0;
+        }
+
+        &-winter {
+            margin: 0 260px 0 0;
+        }
+    }
+}
+
+
+@media  (max-width: 1200px) {
+    .featured {
+
+        &-decor {
+            display: none;
+        }
+
+        &-link {
+            font-size: 20px;
+
+            &-fall {
+                top: 65%;
+                right: 0;
+            }
+
+            &-summer {
+                top: 80%;
+                left: 50%;
+            }
+        }
+
+        &-image {
+
+            &-fall {
+                margin: 0 34.375% 0px 0;
+            }
+
+            &-winter {
+                margin: 0 0 0 29.6875%;
+            }
+
+            &-top {
+                margin: 0 0 0 40%;
+                width: 50%;
+            }
+
+            &-bottom {
+                margin: -45% 50% 0 0;
+            }
+        }
+    }
+}
+
+@media  (max-width: 960px) {
+    .featured {
+
+        &-link {
+            font-size: 14px;
+        }
+    }
+}
+
+@media  (max-width: 460px) {
+    .featured {
+
+        &-link {
+            font-size: 14px;
+        }
     }
 }

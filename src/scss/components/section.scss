@@ -22,6 +22,16 @@
 	    padding: 170px 0 180px;
 	}
 }
+
+@media  (max-width: 1200px){
+	.section{
+
+		&-inner {
+			margin-bottom: 45px;
+		}
+	}
+}
+
 @media  (max-width: 960px){
 	.section{
 		padding:0;
@@ -41,6 +51,8 @@
 		}
 		&-product{
 			flex-direction:column;
+		&.padding-large {
+		    padding: 40px 0;
 		}
 	}
 

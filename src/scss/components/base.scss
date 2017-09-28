@@ -79,3 +79,15 @@ h1 {
 .text-lowercase      { text-transform: lowercase; }
 .text-uppercase      { text-transform: uppercase; }
 .text-capitalize     { text-transform: capitalize; }
+
+@media  (max-width: 1200px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
+@media  (max-width: 760px) {
+  h1 {
+    font-size: 18px;
+  }
+}
